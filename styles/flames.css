@@ -1,0 +1,146 @@
+html {
+  background-color: rgb(241, 198, 205) !important;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: rgb(241, 198, 205);
+  padding: 30px;
+  margin-top: 20px;
+}
+
+#send {
+  background-color: rgb(253, 253, 253);
+  margin-left: 100px;
+  margin-top: 20px;
+  color: rgb(251, 132, 132) !important;
+}
+
+#reload {
+  background-color: rgb(253, 253, 253);
+  margin-left: 100px;
+  margin-top: 20px;
+  color: rgb(251, 132, 132) !important;
+  display: none;
+}
+
+.input-group-text {
+  /* background-color: rgb(255, 255, 255) !important; */
+  color: rgb(251, 132, 132) !important;
+  font-weight: bolder !important;
+}
+
+#text {
+  color: rgb(251, 132, 132);
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#text1 {
+  color: rgb(251, 132, 132);
+  font-size: x-large;
+  font-weight: bold;
+  background-color: rgb(241, 198, 205);
+}
+
+#tex {
+  margin-left: 70px;
+  letter-spacing: 2px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#fbox {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+}
+
+#load {
+  margin-left: 100px;
+  /* margin-top: 30px; */
+  display: none;
+  color: rgb(251, 132, 132) !important;
+}
+
+#msgbox {
+  color: rgb(251, 132, 132);
+  font-size: x-large;
+  font-weight: bold;
+  background-color: rgb(241, 198, 205);
+  margin-left: 80px;
+  font-family: "Courier New",
+    Courier,
+    monospace;
+}
+
+.lds-heart {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  transform-origin: 40px 40px;
+}
+
+.lds-heart div {
+  top: 32px;
+  left: 32px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  /* background: #fff; */
+  background: rgb(251, 132, 132);
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.lds-heart div:after,
+.lds-heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  /* background: #fff; */
+  background: rgb(251, 132, 132);
+
+}
+
+.lds-heart div:before {
+  left: -24px;
+  border-radius: 50% 0 0 50%;
+}
+
+.lds-heart div:after {
+  top: -24px;
+  border-radius: 50% 50% 0 0;
+}
+
+@keyframes lds-heart {
+  0% {
+    transform: scale(0.95);
+  }
+
+  5% {
+    transform: scale(1.1);
+  }
+
+  39% {
+    transform: scale(0.85);
+  }
+
+  45% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
