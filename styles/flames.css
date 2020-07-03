@@ -40,6 +40,13 @@ html {
   font-family: "Courier New", Courier, monospace;
 }
 
+#bymv {
+  color: rgb(251, 132, 132);
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 140px;
+}
+
 #text1 {
   color: rgb(251, 132, 132);
   font-size: x-large;
